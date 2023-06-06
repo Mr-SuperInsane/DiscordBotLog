@@ -6,6 +6,8 @@ This code is designed to be integrated into a Discord Bot.
 
 # Install Pycord
 
+This code use pycord.
+
 Python 3.8 or higher is required
 ```
 # Linux/macOS
