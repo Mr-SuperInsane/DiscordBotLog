@@ -17,8 +17,7 @@ py -3 -m pip install git+https://github.com/Pycord-Development/pycord
 
 # How to use
 
-You need to rewrite line 17 based on timezone of pytz.  
-This is your time in the country in which you live.  
+You need to rewrite line 17 based on timezone of pytz. This is your time in the country in which you live.  
 ```
 your_country = 'Asia/Tokyo'
 ```
@@ -102,16 +101,15 @@ This command can be used to get csv file of all log data.
 
 ## converter_log_to_csv
 
-This command can be used to change all log data to csv file.  
-This command don't send anything.
+This command can be used to change all log data to csv file. This command don't send anything.
 
 ## select_data_from_time
 
-This command can be used to get all data for the time you specify.
-Enter the beginning of time and end of time(arg2) you want to search for.  
+This command can be used to get all data for the time you specify. Enter the beginning of time and end of time(arg2) you want to search for.  
+  
 arg1 : Beginning of time range  
 arg2 : End of time range.  
-
+  
 However, it must be entered in the following this format.
 ```
 year-month-day hour:minute
@@ -124,8 +122,10 @@ example
 
 ## select_data_from_column_and_data
 
-This command can be used to get all data from column name and value.  
-You can get data matching the column name(arg1) and value(arg2) you entered.
-
+This command can be used to get all data from column name and value. You can get data matching the column name(arg1) and value(arg2) you entered.  
+  
+arg1 : column name  
+arg2 : value  
+  
 > And if the number of characters in each message is too large, an error may occur.
 
